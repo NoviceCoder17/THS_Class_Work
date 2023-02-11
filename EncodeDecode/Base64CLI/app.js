@@ -1,5 +1,6 @@
 import chalk from 'chalk'
 import { questionInt, question } from "readline-sync";
+import { decode64, encode64 } from './operations.js';
 
 function main() {
   console.log(chalk.green("*************************************************"));
@@ -16,8 +17,14 @@ function main() {
       return;
       break;
     case 1:
+      var str = question("Enter the string ypu want to encode ");
+      var encoded1= encode64(str)
+      console.log(encoded1)
       break;
     case 2:
+      var str = question("Enter the string you want to decode ");
+      var decode1= decode64(str)
+      console.log(decode1)
       break;
     default:
       console.log("Invalid Input");

@@ -1,0 +1,17 @@
+[
+  {
+    "name": "prema",
+    "email": "prema.xyz@ymail.com",
+    "password": "1234",
+    "phoneNumber": 123456789,
+    "address": "Denver",
+    "todo": [
+      {
+        "todoName": "milk_updated",
+        "iscompleted": false,
+        "task_id": "DpxTE2U6zC"
+      },
+      { "todoName": "groceries", "iscompleted": true, "task_id": "okrROzB2xN" }
+    ]
+  }
+]

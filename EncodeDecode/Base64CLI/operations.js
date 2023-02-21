@@ -1,5 +1,6 @@
 export { encode64, decode64 };
 function encode64(input) {
+  console.log(input)
   let arr = input.split("");
   let arr2 = arr.map((ele) => {
     return ele.charCodeAt().toString(2).padStart(8, 0);

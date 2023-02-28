@@ -1,0 +1,85 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box
+}
+/* h1{
+    color:rgb(255, 68, 0);
+    border: solid green;
+    margin:0px;
+    box-sizing:border-box
+}
+/*Border-Box===include padding */
+/* h2{
+    box-sizing: border-box;
+    border: 2px;
+    margin:10px;
+    box-sizing:border-box
+
+} */
+
+/* .item1{
+    float: right;
+}
+
+.item2{
+    float: right;
+}
+.item3{
+    float:right;
+} */
+
+.box1{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    border:solid;
+    border-color: red;
+    margin-left: 0px;
+    /*float: right;
+/*We can use "flex-box" to overcome float- confusing(changes elements, adjacent elements, flexbox is better box for layouts*/
+
+}
+.box2{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    border: 15px;
+    border:solid;
+    border-color: red;
+    margin-left:199.5px;
+}
+
+.box3{
+    height: 200px;
+    width: 200px;
+    background-color: purple;
+    border: 10px;
+    border:solid;
+    border-color: red;
+    margin-left:399.5px;
+}
+
+.flex-container{
+    height: 600px;
+    width: 800px;
+    display: flex;
+    background-color: aqua;
+    /*Default vaule of direction is row*/
+   
+    /* flex-wrap: wrap; */
+    /*flex-wrap= set direction and wrapping*/
+    flex-flow: column wrap;
+    /* flex uses horizontal approach*/
+    /*Justify-content-This is to play with horizontal axis-Main axis(for row)*/
+    /* justify-content: center;  */
+    /*Action-items-This is to play with vertical axis-cross axis*/
+    /* align-items:center; */
+    /* align-content: center; */
+
+}
+
+
+
+
+

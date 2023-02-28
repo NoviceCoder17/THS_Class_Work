@@ -1,0 +1,64 @@
+ /* *{
+        border-width: 2px;
+        border-style: solid;
+        border-color:red;
+    } */
+/*External CSS, global Css*/
+    h1{
+        color: darkgoldenrod !important;
+    }
+    p{
+        color:coral
+    }
+    
+    .para{
+        color:blue;
+        background-color: cornflowerblue;
+    }
+    #section{
+        color:indigo
+    }
+    /* Child selector*/
+    div > p{
+        color: darkcyan;
+    }
+
+    /*Descendent selecto*/
+    /* div p{
+        color: darkcyan;
+    } */
+
+    /* unvisited link */
+a:link {
+    color: #FF0000;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #00FF00;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #FF00FF;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #0000FF;
+  }
+  button:hover{
+    background-color: aqua;
+    border-width: 0px;
+    font-weight: 100;
+  }
+  ::selection{
+    color:yellow;
+    background-color: blue;
+  }
+  h6{
+    color:rgb(207, 127, 155);
+    color:rgba(red, green, blue, alpha);
+    color:#9563bd;
+    font-size: large;
+  }

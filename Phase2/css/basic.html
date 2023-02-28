@@ -1,0 +1,107 @@
+<!--Why CSS?
+Cascading styling sheet- Better UI,styling html, No alternate to css or html
+REACT converts Js code to html and css
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css"> 
+    <!--Favicon-->
+    <link rel="shortcut icon" href="./assets/icon.ico" type="image/x-icon">
+    <!-- /*Attribute called relation*/ -->
+    <title>CSS</title>
+</head>
+<style>
+   h1{
+        color:red;
+        border-style: solid; 
+    }
+    h4{
+        color:blue;
+    
+        font-style: italic;
+        font-weight: lighter;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    h5{
+        color:chartreuse
+    }
+</style>
+<!--Unique elements targetting- classes and ID are used-->
+<!--
+Each element of html has box- Box model
+Developer tool can be used for modifying css
+-->
+<body>
+    <h1  style="color: blueviolet">This is CSS file</h1>
+    <p>
+        <h4 style = "color:fuchsia"> Style for CSS <br>
+        <h5>
+        selector{ <br>
+            property1:value1; <br>
+            property2:value2; <br>
+            property3:value3; <br>
+        }
+    </h5>
+    </h4>
+    </p>
+    <!--Class and ID-->
+    <p>Normal paragraph</p>
+    <p class="para"> this is targetted using class</p>
+    <P Id="section">This is targetted using ID</P>
+
+    <!--Combination slections-->
+    <div>
+        <p><i>Hello</i></p>
+        <p>World</p>
+        <span>
+            <p>Hey</p>
+        </span>
+    </div>
+    <a href="http://www.google.com" target="_blank">Google</a><br>
+    <button type="submit">Submit</button><br>
+    <a href="#">First</a><br>
+    <a href="#" class="highlight">Second</a>
+    <p class=""highlight">Third</p>
+
+    <ul>
+        <li>Universal selector</li>
+        <li>cLass selector</li>
+        <li>ID selector</li>
+        <li>Name selector</li>
+        <li>Descendent selector</li> 
+        <li>Adjacent selector</li>
+    </ul>
+
+    <h6>Type of declaring colors in css</h6>
+    <ul>
+        <li>Color name</li>
+        <li>Hex code</li>
+        <li>RGB values</li>
+        <li>RGBA values</li>
+    </ul>
+
+</body>
+</html>
+
+<!--There are three ways of writing css
+1. InLine CSS - in the tag itself- affecsts individual ele
+2. Internal CSS - style, depends on the selector, single pages
+3. External CSS - create .css file, selector, multiple pages()
+Can you use !important to prioritize
+-->
+<!--
+    Types of selector
+    .{class name}
+    #{id name}
+-->
+
+<!--
+    BOX model in CSS:
+    margin: right, top, left, bottom(Anti-clock)
+    margin: top/bottom, right/left(2 values)
+-->

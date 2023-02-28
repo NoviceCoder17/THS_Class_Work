@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Class</title>
+</head>
+<body>
+
+    <!-- Heading Tags -->
+        <h1>This is heading 1</h1>
+        <h2>This is heading 2</h2>
+        <h3>This is heading 3</h3>
+        <h4>This is heading 4</h4>
+        <h5>This is heading 5</h5>
+        <h6>This is heading 6</h6>
+
+    <!-- Paragraph Tag -->
+    <p>This is paragraph Tag</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+    <p>Lorem ipsum dolor <i>sit</i> amet <strong>consectetur</strong>, adipisicing elit. Quidem quae ratione aut.</p>
+
+    <!-- italic - i tag, em tag -->
+    <p>Navdeep <i>Singh</i></p>
+    <p>Navdeep <em>Singh</em></p>
+
+    <!-- sup, sub -->
+    <p>H<sub>2</sub>O</p>
+    <p>a<sup>x</sup>+b<sup>y</sup>+c</p>
+
+    <!-- whitespace -->
+    <p>Sharib       &nbsp;                             Ammar</p>
+
+    <!-- selfClosing tag: br, hr -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Vel facere sunt saepe quam, magni cum et omnis nisi aut cupiditate?</p>
+    <hr>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium nam quo velit minima assumenda non soluta nihil! Asperiores magnam, veritatis labore aliquam natus eum eveniet nisi soluta unde. Dolorum, libero.</p>
+
+    <blockquote cite="http://en.wikipedia.org/wiki/
+    Winnie-the-Pooh">
+    <p>Did you ever stop to think, and forget to start
+    again?</p>
+    </blockquote>
+    <p>As A.A. Milne said, <q>Some people talk to
+    animals. Not many listen though. That's the
+    problem.</q></p>
+
+    <!-- attr: giving more info to browser about specific tag -->
+    <!-- <tag attr="attr_value" >   </ctag> -->
+
+    <hr>
+    <abbr title="National Aeronautics of Space ...">NASA</abbr>
+    <p><acronym title="National Aeronautics and Space
+    Administration">NASA</acronym> do some crazy
+    space stuff.</p>
+
+    <hr>
+    <p><cite>A Brief History of Time</cite> by Stephen
+    Hawking has sold over ten million copies
+    worldwide.</p>
+
+    <p>A <dfn>black hole</dfn> is a region of space from
+    which nothing, not even light, can escape.</p>
+
+    <!-- anchor tag -->
+    <a href="https://www.google.com">Google</a> 
+
+    <address>
+    <p><a href="mailto:abdul@ths.com">
+    homer@example.org</a></p>
+    <p>742 Evergreen Terrace, Springfield.</p>
+    </address>
+
+    <hr>
+    <p>It was the <del>worst</del> <ins>best</ins> idea
+    she had ever had.</p>
+    <hr>
+
+    <!-- Ordered List -->
+    <ol>
+        <li>Buy Clothes</li>
+        <li>Watch Movie</li>
+        <li>Do Assignments</li>
+        <li>Raise PRs</li>
+    </ol>
+
+
+    <!-- Unordered List -->
+    <ul>
+        <li>Buy Clothes</li>
+        <li>Watch Movie</li>
+        <li>Do Assignments</li>
+        <li>Raise PRs</li>
+    </ul>
+
+     <!-- Nested List -->
+    <!-- watch Movie....buy tickets, get to theatre , grab popcorn -->
+    <ul>
+        <li>Buy Clothes</li>
+        <li>Watch Movie</li>
+        <ul>
+            <li>Buy Tickets</li>
+            <li>Get to Theatre</li>
+            <li>Grab popcorn</li>
+        </ul>
+        <li>Do Assignments</li>
+        <li>Raise PRs</li>
+    </ul>
+
+    <!-- Defination List -->
+    <dl>
+        <dt>Beast of Bodmin</dt>
+        <dd>A large feline inhabiting Bodmin Moor.</dd>
+
+        <dt>Morgawr</dt>
+        <dd>A sea serpent.</dd>
+
+        <dt>Owlman</dt>
+        <dd>A giant owl-like creature.</dd>
+    </dl>
+
+    <hr>
+    <ul>
+        <li><a href="https://www.w3schools.com/html/default.asp" target="_blank" >HTML</a></li>
+        <li><a href="https://www.w3schools.com/css/default.asp" target="_blank">CSS</a></li>
+        <li><a href="https://www.w3schools.com/js/default.asp" target="_blank">JS</a></li>
+    </ul>
+
+    <a href="./pages/contact.html">Contact</a>
+    <a href="./pages/about.html">About</a>
+    <a href="./pages/link-to-specific.html">Link-to-Specific</a>
+    <a href="./pages/tables.html">Table</a>
+    <a href= "./pages/forms.html">Forms</a>
+    
+
+    <hr>
+    <img src="data:image/png;base64,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" alt="THS Profile">
+
+    <img src="" alt="">
+</body>
+</html>

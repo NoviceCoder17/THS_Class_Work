@@ -1,0 +1,36 @@
+*{
+    color:white;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: crimson;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    margin:2px
+}
+
+.first{
+    /* position: relative; */
+    /* position:absolute;
+    top:50px; */
+    position: sticky;
+    top:0;
+    background-color: fuchsia;
+    /* top:105px; */
+    z-index: 1;
+}
+
+.second{
+    background-color: blueviolet;
+    position:fixed;
+    bottom:0;
+    /* z-index:-1 */
+}
+
+/**/

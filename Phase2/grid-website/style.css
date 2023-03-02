@@ -1,5 +1,169 @@
-*{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --bg-grey: grey;
+    --bg-white: #EDF2F8;
+    --bg-blue: rgb(61, 61, 210);
+    --theme-font: 50px;
+    --bg-color: rgb(136, 107, 197);
+}
+
+.testimonials {
+    margin: 100px 100px;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 50% 50%;
+    gap: 10px;
+}
+
+.testimonials {
+    margin: 100px 100px;
+    height: 100vh;
+}
+
+.bg-purple {
+    background-color: var(--bg-color)
+}
+
+.bg-grey {
+    background-color: var(--bg-grey)
+}
+
+.bg-white {
+    background-color: var(--bg-white);
+
+}
+
+.bg-blue {
+    background-color: var(--bg-blue);
+}
+
+.card {
+    padding: 25px;
+    border-radius: 15px;
+
+}
+
+.cardOne {
+    color: white;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.cardTwo {
+    color: white;
+}
+
+.cardThree {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.cardFive {
+    color: white;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.cardOne img {
+    border-radius: 50%;
+    height: "50px";
+    width: "50px";
+    border: 2px solid var(--bg-color);
+    margin-right: 10px;
+
+}
+
+.cardTwo img {
+    border-radius: 50%;
+    height: "50px";
+    width: "50px";
+    border: 2px solid var(--bg-grey);
+    margin-right: 10px;
+
+}
+
+.cardThree img {
+    border-radius: 50%;
+    height: "50px";
+    width: "50px";
+    border: 2px solid var(--bg-white);
+    margin-right: 10px;
+
+}
+
+.cardFour img {
+    border-radius: 50%;
+    height: "50px";
+    width: "50px";
+    border: 2px solid var(--bg-white);
+    margin-right: 10px;
+
+}
+
+.cardFive img {
+    border-radius: 50%;
+    height: "50px";
+    width: "50px";
+    border: 2px solid var(--bg-blue);
+    margin-right: 10px;
+
+}
+
+.card header div h3 {
+    font-size: 18px
+}
+
+.cardOne header div p {
+    font-size: smaller;
+    opacity: 70%;
+}
+
+.card-lead {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.card-des {
+    opacity: 70%;
+}
+
+@media screen and (max-width: 1300px) {
+    .testimonials {
+        margin: 50px 50px;
+        grid-template-columns: 1fr;
+        width: 85%;
+    }
+
+    .cardOne {
+        grid-column: 1;
+    }
+
+
+    .cardThree {
+        grid-column: 1;
+        grid-row: 3
+    }
+
+
+    .cardFive {
+        grid-column: 1;
+        grid-row: 5;
+    }
+}
+ 

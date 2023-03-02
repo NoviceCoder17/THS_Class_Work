@@ -29,7 +29,7 @@ aside {
     background-color: darkgoldenrod;
 }
 
-header {
+header{
 
     grid-area: header;
     background-color: rgb(250, 220, 144);

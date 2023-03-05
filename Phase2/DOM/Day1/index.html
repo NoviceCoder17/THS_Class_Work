@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="test">Welcome to DOM<b> HEY</b></h1>  
+    <h1 id="id">Welcome</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, tempore?</p>
+    <p>Loremmmm ipsum dolor sit amet consectetur adipisicing elit. Error, tempore?</p>
+</body>
+<script>
+    // <!--Target the first element-->
+    //1st way
+    // let element = document.getElementsByTagName("h1")
+    // console.log(element[0])
+
+    //2nd way
+    // let element=document.getElementsByClassName("test")
+    // console.log(element)
+
+    //3rd Way
+    //id is the unique attribute in html
+    //MOST used 
+    //Targets only one id
+    // let element=document.getElementById("id")
+    // console.log(element)
+
+    //4th way
+    //QuerySelector
+    //can use it for 
+    // let element1=document.querySelector("p")
+    // let element2=document.querySelector("#id")
+    // let element3=document.querySelector(".test")
+    // let ele=document.querySelectorAll("p")
+
+    let element = document.querySelector(".test")
+    element.innerHTML=element.innerHTML+" <i>Prema</i>"
+
+    //querySelector can target p.test#id
+</script>
+</html>

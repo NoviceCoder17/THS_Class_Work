@@ -1,0 +1,55 @@
+<!--On click-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .style{
+            background-color: blue;;
+            padding:10px;
+            width:100px;
+            border:none;
+            border-radius:9px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <div class="firstchild">I am the first child</div>
+        <p class="secondchild">I am the second child</p>
+        <h3>living barely </h3>
+        <h1 class="fourth">Hello world</h1>
+        <p class="last styled">I am the last child</p>
+        <button id="main" value="I was clicked" onclick=main()>Click here</button>
+    </div>   
+</body>
+<script>
+    let last =document.querySelector(".last")
+    let parent =document.querySelector("#parent")
+    let firstchild =document.querySelector(".firstchild")
+
+    let ele = document.createElement("h1")
+    ele.innerHTML="<i>This is new italic</i>"
+
+    // last.append(ele)
+    parent.insertBefore(ele,firstchild)
+
+    let btn = document.querySelector("#main")
+    btn.classList.add("style")
+    console.log(btn.classList)
+
+    btn.classList.remove("style")
+    console.log(btn.classList)
+
+    function main(){
+        let btn = document.querySelector("#main")
+        btn.classList.toggle("style")
+    }
+
+</script>
+
+</html>

@@ -1,0 +1,142 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;  
+ /* border: 1px solid red;  */
+}
+
+nav{
+    display: flex;
+    background-color: gainsboro;
+    flex-direction: row;
+    justify-content: space-between;  
+    height: 5vh;
+}
+
+nav p{
+    flex-basis: 30%;
+    align-self: center;
+    font-weight: 1000;
+    font-size: large;
+    padding: 0px 20px;
+}
+
+ nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    gap: 20px;
+    padding: 0px 20px;
+    font-weight: 1000;
+ }
+
+a{
+    text-decoration: none;
+    color:black
+}
+ .section2{
+    display: flex;
+    background-color: cadetblue;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 25vh;  
+ }
+.section2 h2{
+    margin-bottom: 10px;
+}
+
+.section2 form{
+    width: 25%;
+}
+input[type="text"]{
+    padding: 5px 10px;
+    width: 100%;
+    border-radius: 9px;
+}
+input[type="submit"]{
+    padding: 5px 10px;
+    margin-top:5%;
+    margin-right:8%;
+    width: 45%;
+    border-radius: 9px;
+}
+
+.clear{
+    padding: 5px 10px;
+    /* margin-left:10%; */
+    width: 45%;
+    border-radius: 9px;
+}
+.section3{
+    display: flex;
+    background-color: coral;
+    flex-wrap: wrap;
+    column-gap:250px;
+    row-gap:50px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+}
+.section3 .flex-items{
+    height: 260px;
+    width: 250px;
+    /* margin-top: 20px; */
+}
+footer {
+    text-align: center;
+    background-color: darkgray;
+    height: 5vh
+}
+footer p{
+    /* margin-top:5px; */
+    padding-top: 8px;
+    font-size: large;
+}
+.section3 .flex-items img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; 
+    
+}
+.section3 .flex-items{
+    padding:0px 25px  
+}
+
+.section3 .flex-items h3{
+    text-align: center;
+    font-weight: 1000;
+}
+.section3 .flex-items .profile{
+    margin: 0px 50px;
+    margin-top:2px;
+    width:max-content;
+    padding: 2px 10px;
+    border-radius: 9px;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 1300px) {
+
+    input[type="submit"]{
+        
+        width: 100%;
+    }
+    
+    .clear{
+        margin-top:5%;
+        width: 100%;   
+    }
+
+    nav p {
+        flex-basis: 40%;
+        align-self: center;
+        font-weight: 1000;
+        font-size: medium;
+        padding: 0px 20px;
+    }
+    
+}
+
